@@ -6,8 +6,32 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="OhNulls.fs" />
+    <Compile Include="Automata.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aardvark.Application" Version="5.4.5" />
+    <PackageReference Include="Aardvark.Application.Slim.GL" Version="5.4.5" />
+    <PackageReference Include="Aardvark.Application.Utilities" Version="5.4.5" />
+    <PackageReference Include="Aardvark.Application.WinForms" Version="5.4.5" />
+    <PackageReference Include="Aardvark.Application.WinForms.GL" Version="5.4.5" />
+    <PackageReference Include="Aardvark.Application.WinForms.Vulkan" Version="5.4.5" />
+    <PackageReference Include="Aardvark.Base" Version="5.2.23" />
+    <PackageReference Include="Aardvark.Base.Essentials" Version="5.2.23" />
+    <PackageReference Include="Aardvark.Base.FSharp" Version="5.2.23" />
+    <PackageReference Include="Aardvark.Base.Incremental" Version="5.2.23" />
+    <PackageReference Include="Aardvark.Base.Runtime" Version="5.2.23" />
+    <PackageReference Include="Aardvark.Base.TypeProviders" Version="4.5.15" />
+    <PackageReference Include="Aardvark.Build" Version="1.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Aardvark.GPGPU" Version="5.4.5" />
+    <PackageReference Include="FShade.Core" Version="5.5.0" />
+    <PackageReference Include="FShade.Debug" Version="5.5.0" />
+    <PackageReference Include="FShade.GLSL" Version="5.5.0" />
+    <PackageReference Include="FShade.Imperative" Version="5.5.0" />
   </ItemGroup>
 
 </Project>

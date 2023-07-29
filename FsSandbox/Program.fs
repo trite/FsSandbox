@@ -1,3 +1,4 @@
 ﻿printfn "Hello from F#"
 
-OhNulls.run()
+printfn "=== Automata.run() ==="
+Automata.run()
